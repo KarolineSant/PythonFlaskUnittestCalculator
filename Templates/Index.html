@@ -11,16 +11,16 @@
     <h1>Calculadora</h1>
     <form method="post" action="{{ url_for('operation_result') }}" id="calculator_form">
         <label for="Input1">Numero 1:</label>
-        <input type="text" name="Input1" id="Input1">
+        <input type="Input1" name="Input1" id="Input1">
         <br/>
         <label for="Input2">Numero 2:</label>
         <input type="Input2" name="Input2" id="Input2">
         <br/>
         <label for="operation">Operação</label>
         <select id="operation" name="operation">
-            <option value="+">Raiz Quadrada</option>
-            <option value="-">Exponenciação</option>
-            <option value="*">Logaritmo'</option>
+            <option value="sqrt">Raiz Quadrada</option>
+            <option value="pow">Exponenciação</option>
+            <option value="log">Logaritmo'</option>
         </select>
         <br/>
         <input type="submit" value="Calcular"/>
